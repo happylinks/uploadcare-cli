@@ -6,6 +6,10 @@
   "bin": {
     "uploadcare": "index.ts"
   },
+  "scripts": {
+    "build": "bun build index.ts --compile --outfile uploadcare",
+    "install-cli": "bun run build && mkdir -p ~/.local/bin && cp uploadcare ~/.local/bin/"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
