@@ -5,6 +5,7 @@ node_modules
 out
 dist
 *.tgz
+uploadcare
 
 # code coverage
 coverage
