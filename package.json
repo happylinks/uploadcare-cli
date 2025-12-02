@@ -17,6 +17,7 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@uploadcare/signed-uploads": "^6.18.2",
     "@uploadcare/upload-client": "^6.18.2"
   }
 }

@@ -5,6 +5,7 @@
     "": {
       "name": "uploadcare-cli",
       "dependencies": {
+        "@uploadcare/signed-uploads": "^6.18.2",
         "@uploadcare/upload-client": "^6.18.2",
       },
       "devDependencies": {
@@ -19,6 +20,8 @@
     "@types/bun": ["@types/bun@1.3.3", "", { "dependencies": { "bun-types": "1.3.3" } }, "sha512-ogrKbJ2X5N0kWLLFKeytG0eHDleBYtngtlbu9cyBKFtNL3cnpDZkNdQj8flVf6WTZUX5ulI9AY1oa7ljhSrp+g=="],
 
     "@types/node": ["@types/node@24.10.1", "", { "dependencies": { "undici-types": "~7.16.0" } }, "sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ=="],
+
+    "@uploadcare/signed-uploads": ["@uploadcare/signed-uploads@6.18.2", "", {}, "sha512-zC4hf7kZCfJu+xc5P/dBY4aP5NbtvAn1OyWMgL/0bHXZtIutBjrulN6D699Z2787HawvW1osMk1vvS1S1A7kbg=="],
 
     "@uploadcare/upload-client": ["@uploadcare/upload-client@6.18.2", "", { "dependencies": { "form-data": "^4.0.0", "ws": "^8.2.3" } }, "sha512-jfphlkJmcliGbk/pWyArMgluPR1VZmkz0p/DlkeQ2lpEn7rvmN3KQUjI+1lnaPb3TCWh0m6VbQmLPf2hUOfs9Q=="],
 
